@@ -1,0 +1,58 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+
+
+/* Fine setting di default */
+body{
+    padding: 10px 50px;
+}
+header{
+    /* da cancellare */
+ background-color: rgb(247, 4, 45);
+ border-bottom: 1px solid black;
+}
+    
+.menu-principale{
+    margin-top: 20px;
+}
+.menu-principale li{
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+
+.menu-principale a{
+    padding: 10px;
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;}

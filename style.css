@@ -40,11 +40,13 @@ header{
 
 /* FINE HEADER */
 
-/* INZIO MAIN */
+/* INZIO MAIN
+INIZIO PRIMA SECTION */
 
 .img-1{
     display: block;
     background-image: url('./img/banner.jpg');
+    background-image: cover;
     background-repeat: none;
     height: 600px;
     width: auto;
@@ -63,4 +65,85 @@ header{
     position: relative;
     top: 71%;
     left: 3%;
+}
+header a:hover{
+    background-color: aquamarine;
+}
+
+/* FINE PRIMA SECTION */
+
+/* INIZIO SECONDA SEZIONE */
+
+.row{
+    margin-top: 25px;
+    position: relative;
+    display: block;
+    height: 300px;
+    width: auto;
+}
+
+.img-2sec{
+    width: calc(100% / 3 );
+    float: left;
+    position: relative;
+    border-radius: 25px;
+  }
+  
+.img-2sec img{
+    padding: 20px;
+    width: 100%;
+    background-size: 300px 100px ;
+  }
+
+.row h3{
+    display: inline-block;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+  
+/* .left{
+     position: relative;
+     width:100px;
+     height: 100px;
+}
+
+.middle{
+    position: relative;
+    width:100px;
+    height: 100px;
+    image-resolution: 50%;
+}
+
+.right{
+    position: relative;
+    width:100px;
+    height: 100px
+} */
+
+
+
+
+
+
+
+
+
+
+footer{
+    padding:10px 10px;
+    text-align: center;
+}
+
+.red{
+    color: red;
 }

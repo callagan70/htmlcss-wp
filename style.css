@@ -1,12 +1,17 @@
 *{
     margin: 0%;
     padding: 0%;
-    box-sizing: border-box;
-}
+    box-sizing: border-box;}
 
-
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;}
 
 /* Fine setting di default */
+
+/* INIZIO HEADER */
+
 body{
     padding: 10px 50px;
 }
@@ -32,27 +37,28 @@ header{
     color: white;
 }
 
+/* FINE HEADER */
 
+/* INZIO MAIN */
 
+.img-1{
+    display: block;
+    background-image: url('./img/banner.jpg');
+    background-repeat: none;
+    height: 600px;
+    width: auto;
+    margin-top: 25px;
+    position: relative;
+}
 
+.testacommento{
+    position: relative;
+    top: 70%;
+    left: 3%;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.clearfix::after{
-    content: "";
-    display: table;
-    clear: both;}
+.paragrafocommento{
+    position: relative;
+    top: 71%;
+    left: 3%;
+}

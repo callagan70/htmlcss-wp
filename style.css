@@ -16,9 +16,7 @@ body{
     padding: 10px 50px;
 }
 header{
-    /* da cancellare */
- background-color: rgb(247, 4, 45);
- border-bottom: 1px solid black;
+
 }
     
 .menu-principale{
@@ -36,6 +34,9 @@ header{
     text-decoration: none;
     color: white;
 }
+.menu-principale a{
+    color: black;
+}
 
 /* FINE HEADER */
 
@@ -49,6 +50,7 @@ header{
     width: auto;
     margin-top: 25px;
     position: relative;
+    border-radius: 20px;
 }
 
 .testacommento{

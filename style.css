@@ -33,10 +33,15 @@ header{
     display: inline-block;
     text-decoration: none;
     color: white;
+    font-variant: small-caps;
 }
 .menu-principale a{
     color: black;
 }
+.logo{
+    height: 50px;
+}
+
 
 /* FINE HEADER */
 
@@ -46,13 +51,14 @@ INIZIO PRIMA SECTION */
 .img-1{
     display: block;
     background-image: url('./img/banner.jpg');
-    background-image: cover;
-    background-repeat: none;
+    background-repeat: no-repeat;
     height: 600px;
     width: auto;
     margin-top: 25px;
     position: relative;
     border-radius: 20px;
+    background-size: cover;
+    background-position: center;
 }
 
 .testacommento{
@@ -91,7 +97,7 @@ header a:hover{
 .img-2sec img{
     padding: 20px;
     height: 200px;
-    max-width: max-content;
+    max-height: max-content;
   }
 
 .row h3{
